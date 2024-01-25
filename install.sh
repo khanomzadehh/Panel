@@ -248,14 +248,14 @@ if [[ $IonCube == *"PHP Loader v13"* ]]; then
   echo "IonCube Is Installed :)"
 else
 sed -i 's@zend_extension = /usr/local/ioncube/ioncube_loader_lin_8.1.so@@' /etc/php/8.1/cli/php.ini
-bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/ioncube-loader/main/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/ioncube-loader/main/install.sh --ipv4)
 fi
 
 Nethogs=$(nethogs -V)
 if [[ $Nethogs == *"version 0.8.7"* ]]; then
   echo "Nethogs Is Installed :)"
 else
-bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Nethogs-Json/main/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/Nethogs-Json/main/install.sh --ipv4)
 fi
 
 file=/etc/systemd/system/videocall.service
