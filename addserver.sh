@@ -1,11 +1,10 @@
 #!/bin/bash
-#By Hamed Ap
 
-sudo wget -4 -O /usr/local/bin/shahan https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/screenshot/shahan &
+sudo wget -4 -O /usr/local/bin/shahan https://raw.githubusercontent.com/khanomzadehh/Panel/main/screenshot/shahan &
 wait
 sudo chmod a+rx /usr/local/bin/shahan
 
-sudo wget -4 -O /usr/local/bin/shahancheck https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/screenshot/shahancheck &
+sudo wget -4 -O /usr/local/bin/shahancheck https://raw.githubusercontent.com/khanomzadehh/Panel/main/screenshot/shahancheck &
 wait
 sudo chmod a+rx /usr/local/bin/shahancheck
 
@@ -94,14 +93,14 @@ bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/ioncube-loader/main/in
 fi
 
 
-sudo wget -4 -O /var/www/html/kill.php https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/New-Server/kill.php
-sudo wget -4 -O /var/www/html/killusers.sh https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/New-Server/killusers.sh
-sudo wget -4 -O /var/www/html/syncdb.php https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/New-Server/syncdb.php
-sudo wget -4 -O /var/www/html/token.php https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/New-Server/token.php
-sudo wget -4 -O /var/www/html/online.php https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/New-Server/online.php
-sudo wget -4 -O /var/www/html/adduser https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/New-Server/adduser
-sudo wget -4 -O /var/www/html/delete https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/New-Server/delete
-sudo wget -4 -O /var/www/html/list https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/New-Server/list
+sudo wget -4 -O /var/www/html/kill.php https://raw.githubusercontent.com/khanomzadehh/Panel/main/New-Server/kill.php
+sudo wget -4 -O /var/www/html/killusers.sh https://raw.githubusercontent.com/khanomzadehh/Panel/main/New-Server/killusers.sh
+sudo wget -4 -O /var/www/html/syncdb.php https://raw.githubusercontent.com/khanomzadehh/Panel/main/New-Server/syncdb.php
+sudo wget -4 -O /var/www/html/token.php https://raw.githubusercontent.com/khanomzadehh/Panel/main/New-Server/token.php
+sudo wget -4 -O /var/www/html/online.php https://raw.githubusercontent.com/khanomzadehh/Panel/main/New-Server/online.php
+sudo wget -4 -O /var/www/html/adduser https://raw.githubusercontent.com/khanomzadehh/Panel/main/New-Server/adduser
+sudo wget -4 -O /var/www/html/delete https://raw.githubusercontent.com/khanomzadehh/Panel/main/New-Server/delete
+sudo wget -4 -O /var/www/html/list https://raw.githubusercontent.com/khanomzadehh/Panel/main/New-Server/list
 
 sudo sed -i "s/serverip/$panelip/g" /var/www/html/token.php &
 wait 

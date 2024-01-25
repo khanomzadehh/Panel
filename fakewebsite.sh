@@ -1,6 +1,4 @@
 #!/bin/bash
-# By Hamed Ap
-# For Shahan Panel :) Dozdi Nakon BiShoor :))
 
 apt install unzip -y
 cd /root

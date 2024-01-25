@@ -1,6 +1,5 @@
 #!/bin/bash
-# By Hamed Ap
-# For Shahan Panel :) Dozdi Nakon BiShoor :))
+
 printshahan() {
     text="$1"
     delay="$2"

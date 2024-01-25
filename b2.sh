@@ -5,7 +5,7 @@ port=$(echo "$po" | sed "s/Port //g")
 
 sudo apt install iptables ipset -y
 
-sudo wget -4 -O /root/iranip.txt https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/iranip.txt &
+sudo wget -4 -O /root/iranip.txt https://raw.githubusercontent.com/khanomzadehh/Panel/main/iranip.txt &
 wait
 
 iptables -F

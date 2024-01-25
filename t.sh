@@ -1,6 +1,5 @@
 #!/bin/bash
-# By Hamed Ap
-# For Shahan Panel :) Dozdi Nakon BiShoor :))
+
 printshahan() {
     text="$1"
     delay="$2"
@@ -45,7 +44,7 @@ detect_arch() {
 }
 
 server_arch=$(detect_arch)
-download_url="https://github.com/HamedAp/tuic/releases/download/1.0.0/tuic-server-1.0.0-$server_arch"
+download_url="https://github.com/khanomzadehh/Tuic/releases/tag/1.0.0/tuic-server-1.0.0-$server_arch"
 mkdir -p /root/tuic
 cd /root/tuic
 rm -fr /root/tuic/tuic-server

@@ -26,11 +26,11 @@ port=$(echo "$po" | sed "s/Port //g")
 adminuser=$(mysql -N -e "use ShaHaN; select adminuser from setting where id='1';")
 adminpass=$(mysql -N -e "use ShaHaN; select adminpassword from setting where id='1';")
 
-sudo wget -4 -O /usr/local/bin/shahan https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/screenshot/shahan &
+sudo wget -4 -O /usr/local/bin/shahan https://raw.githubusercontent.com/khanomzadehh/Panel/main/screenshot/shahan &
 wait
 sudo chmod a+rx /usr/local/bin/shahan
 
-sudo wget -4 -O /usr/local/bin/shahancheck https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/screenshot/shahancheck &
+sudo wget -4 -O /usr/local/bin/shahancheck https://raw.githubusercontent.com/khanomzadehh/Panel/main/screenshot/shahancheck &
 wait
 sudo chmod a+rx /usr/local/bin/shahancheck
 
@@ -135,7 +135,7 @@ fi
 sudo apt install  php8.1-mbstring -y
 
 if [ $# == 0 ]; then
-link=$(sudo curl -Ls "https://api.github.com/repos/HamedAp/Ssh-User-management/releases/latest" | grep '"browser_download_url":' | sed -E 's/.*"([^"]+)".*/\1/')
+link=$(sudo curl -Ls "https://api.github.com/repos/khanomzadehh/Panel/releases/latest" | grep '"browser_download_url":' | sed -E 's/.*"([^"]+)".*/\1/')
 sudo wget -O /var/www/html/update.zip $link
 sudo unzip -o /var/www/html/update.zip -d /var/www/html/ &
 wait
@@ -143,7 +143,7 @@ wait
 last_version=$1
 
 lastzip=$(echo $last_version | sed -e 's/\.//g')
-link="https://github.com/HamedAp/Ssh-User-management/releases/download/$last_version/$lastzip.zip"
+link="https://github.com/khanomzadehh/Panel/releases/download/$last_version/$lastzip.zip"
 
 sudo wget -O /var/www/html/update.zip $link
 sudo unzip -o /var/www/html/update.zip -d /var/www/html/ &
@@ -345,7 +345,7 @@ wait
 sudo timedatectl set-timezone Asia/Tehran
 chmod 0646 /var/log/auth.log
 
-sudo wget -4 -O /root/updateshahan.sh https://github.com/HamedAp/Ssh-User-management/raw/main/install.sh
+sudo wget -4 -O /root/updateshahan.sh https://github.com/khanomzadehh/Panel/raw/main/install.sh
 
 if  grep -q "Apache2 Ubuntu Default Page" "/var/www/html/index.html" ; then
 cat >  /var/www/html/index.html << ENDOFFILE
@@ -365,7 +365,7 @@ inje='/var/www/html/h.apk'
 if [ -e "$inje" ]; then
     echo "inje file"
 else
-sudo wget -4 -O /var/www/html/h.apk https://github.com/HamedAp/Ssh-User-management/raw/main/h.apk &
+sudo wget -4 -O /var/www/html/h.apk https://github.com/khanomzadehh/Panel/raw/main/h.apk &
 wait
 fi
 
