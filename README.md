@@ -1,106 +1,68 @@
- [![GitHub release (latest by date)](https://img.shields.io/github/v/release/HamedAp/Ssh-User-management)](https://github.com/HamedAp/Ssh-User-management/releases/latest) 
-[![Telegram Channel](https://img.shields.io/endpoint?label=Channel&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FShaHaNPanel&color=blue)](https://t.me/ShaHaNPanel)
-[![Telegram Group](https://img.shields.io/endpoint?color=neon&label=Support%20Group&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Fshahanpanel_gp)](https://t.me/shahanpanel_gp)
+<p align="center">
+  <a href="https://t.me/ZanborChannel">Channel</a> |
+  <a href="https://t.me/ZanborSupport">Support</a>
+  <br><br>
+  <img src="https://media.tenor.com/cTNHiNckhfIAAAAM/minions-strong.gif">
+</p>
 
-  
-# ShaHaN VPN Panel ( Multi Protocol )
+<br>
 
-پنل مدیریت و فروش پروتکل SSH - DropBear - TUIC - Cisco
+Think about how to access a data mining device, a management panel, and an SSH - DropBear - TUIC - Cisco protocol, with 3 large data management panels, a MindDigger, and a cartridge. Ranyan Aziz is very popular. When you look at the dashboard, remove the license plate from the price of the new car you are looking for at the same time.
 
-به زودی بقیه پروتکل ها اضافه می شود .
+---
+فکر میکنم دیگر نیاز به معرفی نباشه، پنل مدیریت و فروش پروتکل های SSH - DropBear - TUIC - Cisco با 3 پنل پیکپارچه مدیریت ، نمایندگی و کاربری برای ایرانیان عزیز منتشر شد. درنظر داشته باشید این پنل لایسنس با قیمت بسیار ناچیزی دارد که صرفا یکبار پرداخت است.
+<br>
+### 📌 Photo:
+<p align="center" width="50%">
+<img width="100%" src="https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/main/screenshot/1.png">
+<img width="100%" src="https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/main/screenshot/2.png">
+</p>
+<br>
 
-
-# نسخه رایگان :
-
-اضافه کردن کاربر تکی ✔️
-انلاین ها ✔️
-لیست یوزر ها ✔️
-حذف یوزر ✔️
-ویرایش یوزر✔️
-فعال غیرفعال کردن یوزر ✔️
-بکاپ و ریستور ✔️
-قطعی بعد از تاریخ انقضا ✔️
-محدودیت چند کاربر ✔️
-ریست ترافیک ✔️
-محدودیت ترافیک ✔️
-پورت DropBear ✔️
-تم دارک و لایت ✔️
-وضعیت فیلترینگ ✔️
-کاربران پرمصرف ✔️
-
-
-
-
-# نسخه حرفه ای 
-
-برنامه اختصاصی اندروید ( با برند شخصی ) ✔️
-برنامه اختصاصی ویندوز ( با برند شخصی ) ✔️
-کاربر عمده ✔️
-ربات تلگرام ( فروش خودکار ) ✔️
-لاگ ورود خروج کاربران ✔️
-هدیه به کاربران ✔️
-حذف کاربران منقضی شده ✔️
-ضدفیلتر ✔️
-بکاپ خودکار ✔️
-پیام اتصال ✔️
-توکن API ✔️
-مولتی سرور ✔️
-پروتکل TUIC ✔️
-پروتکل سیسکو ✔️
-کانفیگ با QRCode ✔️
-فایروال اختصاصی ✔️
-ارسال پیام به کاربران تلگرام ✔️
-ارسال بکاپ روزانه به تلگرام ✔️
+### 📌 Features:
+✔️ Admin Panel<br>
+✔️ User Panel<br>
+✔️ Reseller Panel<br>
+✔️ GOOD and NEW Anti-filter<br>
+✔️ Add single user <br>
+✔️ Inline <br>
+✔️ List of users <br>
+✔️ Delete user <br>
+✔️ Edit user <br>
+✔️ Activate Disable user <br>
+✔️ Settings <br>
+✔️ Shutdown after expiration date <br>
+✔️ Single user limit <br>
+✔️ Reset traffic <br>
+✔️ Shutdown after traffic <br>
+✔️ Windows exclusive program <br>
+✔️ Main user <br>
+✔️ Telegram bot <br>
+✔️ User login and exit log <br>
+✔️ Gift to users <br>
+✔️ Remove expired users<br>
+✔️ License<br>
+✔️ Auto backup <br>
+✔️ Connection message <br>
+✔️ API token <br>
+✔️ Multi server <br>
+✔️ General log <br>
 
 
 
+### 📌 Installer:
+
+```
+bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/Panel/master/install.sh --ipv4)
+```
+
+<b>Note:</b> Do not use Root user for the username of the panel.
 
 
+### 📌 SSL Installer:
 
- # حمایت 
- 
-  ⭐️ جهت حمایت از ما به پروژه ستاره بدین
+```
+bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/Panel/master/ssl.sh --ipv4)
+```
 
-بالا سمت راست ⭐️
-
-# سیستم عامل پیشنهادی : 
-
-- اوبونتو 20 - Ubuntu 20
-
-
- 
-# اموزش نصب :
-
-دستور زیر را در ترمینال خود وارد کرده و یوزر و پسورد ادمین را وارد کنید .
-
-*** به هیچ وجه برای نام کاربری پنل از یوزر Root استفاده نکنین .
-
-````
-bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/install.sh --ipv4)
-````
-
-بعد از نصب پنل میتوانید از دستور shahan در ترمینال خود استفاده کنید و گزینه های پنل رو انتخاب کنین . 
-
-
-
-
-
-
-# دریافت SSL برای پنل و ربات تلگرام ( نیازمند دامنه میباشد ) 
-
-در صورتی که دامنه دارید بعد از دستور نصب ( دقت کنید بعد از دستور نصب )  این دستور را بزنید .
-
-
-````
-bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/ssl.sh --ipv4)
-````
-
-
-# اسکرین شات
-![](screenshot/login.png)
-![](screenshot/index.png)
-![](screenshot/status.png)
-![](screenshot/filter.png)
-![](screenshot/userlog.png)
-
-
+<b>Note:</b> Only For Telegram Bot - And AntiFilter.
