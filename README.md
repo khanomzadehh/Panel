@@ -14,8 +14,7 @@ Think about how to access a data mining device, a management panel, and an SSH -
 <br>
 ### 📌 Photo:
 <p align="center" width="50%">
-<img width="100%" src="https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/main/screenshot/1.png">
-<img width="100%" src="https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/main/screenshot/2.png">
+<img width="100%" src="https://raw.githubusercontent.com/khanomzadehh/Panel/main/screenshot/login.png">
 </p>
 <br>
 
